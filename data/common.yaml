@@ -1,0 +1,11 @@
+---
+paw_ansible_role_elasticsearch::elasticsearch_version: 7.x
+paw_ansible_role_elasticsearch::elasticsearch_network_host: localhost
+paw_ansible_role_elasticsearch::elasticsearch_http_port: 9200
+paw_ansible_role_elasticsearch::elasticsearch_extra_options: ''
+paw_ansible_role_elasticsearch::elasticsearch_heap_size_min: 1g
+paw_ansible_role_elasticsearch::elasticsearch_heap_size_max: 2g
+paw_ansible_role_elasticsearch::elasticsearch_package: elasticsearch
+paw_ansible_role_elasticsearch::elasticsearch_package_state: present
+paw_ansible_role_elasticsearch::elasticsearch_service_state: started
+paw_ansible_role_elasticsearch::elasticsearch_service_enabled: true
